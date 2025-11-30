@@ -21,4 +21,40 @@
   /* shadows */
   --fs-shadow-05: rgba(0,0,0,0.05);
   --fs-shadow-08: rgba(0,0,0,0.08);
+
 }
+
+/* Buttons */
+
+.bttn{
+    display: inline-block;
+    padding: .4rem 1.5rem;
+    transition: all .4s;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.bttn-primary {
+    background-color: var(--fs-soft-blue);
+    color: var(--fs-white);
+    border: none;
+}
+
+.bttn-primary:hover {
+    background-color: var(--fs-sky-blue);
+    color: var(--fs-white);
+}
+
+.bttn-outline {
+    background-color: var(--fs-white);
+    color: var(--fs-soft-blue);
+    border: 1px solid var(--fs-soft-blue);
+}
+
+.bttn-outline:hover {
+    background-color: var(--fs-sky-blue);
+    color: var(--fs-white);
+}
+

@@ -3,4 +3,50 @@
 
 /* GENERAL STYLES*/
 
+/*Override General Settings*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--fs-gray-blue);
+    color: var(--fs-gray);
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--fs-black-blue);
+    font-weight: 700;
+}
+
+h2,h3 {
+    color: var(--fs-dark-gray-blue);
+    font-weight: 500;
+}
+
+p {
+    color: var(--fs-gray);
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fs-white);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
