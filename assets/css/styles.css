@@ -90,6 +90,17 @@ header {
 }
 
 
+/* MAIN */
+
+.flip-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* TIMELINE */
+
+
 
 
 
