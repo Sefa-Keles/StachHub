@@ -48,6 +48,7 @@ a {
     padding-bottom: .5rem;
     transition: border-color .5s;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 a:hover {
@@ -74,29 +75,21 @@ header {
     min-height: 70vh;
 }
 
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    width: 100px;
+    height: auto;
+}
+
 .header-content {
     text-align: center;
     padding-top: 30%;
 }
 
-/* NAV */
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-}
 
-.nav .logo {
-    max-width: 20rem ;
-    max-height: auto;
-}
 
-.nav-list {
-    display: flex; 
-}
-
-.nav-list .nav-item {
-    padding: 1rem 1.5rem;
-}
 
