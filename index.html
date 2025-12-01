@@ -64,122 +64,536 @@
     <!-- MAIN -->
     <main id="main">
         <div class="container py-5">
-            <div class="card">
+            <div class="card flip-card">
                 <div class="card-body">
+                    <!--Card Navigation Buttons-->
                     <div class="flip-buttons">
-                        <button class="btn btn-primary btn-lg">Front-End</button>
-                        <button class="btn btn-primary btn-lg">Back-End</button>
-                        <button class="btn btn-primary btn-lg">Full-Stack</button>
+                        <nav class="nav-direction">
+                            <ul class="nav-direction-list">
+                                <li class="nav-direction-item"><a href="#" id="bttn-frontend" class="bttn bttn-outline"><i class="fas fa-chevron-left"></i>FrontEnd</a></li>
+                                <li class="nav-direction-item px-3"><a href="#" id="bttn-backend" class="bttn bttn-outline"><i class="fas fa-chevron-right"></i>BackEnd</a></li>
+                                <li class="nav-direction-item"><a href="#" id="bttn-fullstack" class="bttn bttn-outline"><i class="fas fa-chevron-down"></i>FullStack</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="timeline py-5">
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/html-5-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                    <div class="flip-wrapper">
+                        <div class="flip-content">
+                            <!--FrontEnd Card-->
+                            <div class="timeline flip-face card-frontend py-5">
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/html-5-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">HTML 5</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#html5.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/css-3-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">CSS 3</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#css3.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/git-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">GIT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#git.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/bootstrap-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">BOOTSTRAP 5</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#bootstrap.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">JAVASCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#javascript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/react-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">REACT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#react.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/redux-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">REDUX</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#redux.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/tailwindcss-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">TAILWIND CSS</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#tailwind.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">TYPESCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#typescript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/css-3-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                            <!--BackEnd Card-->
+                            <div class="timeline flip-face card-backend py-5">
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/python-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">PYTHON</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#python.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/django-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">DJANGO</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#django.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/dotnet-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">.NET</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#dotnet.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">JAVASCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#javascript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">TYPESCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#typescript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/sql-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">SQL</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#sql.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/postgresql-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">POSTGRESQL</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#postgresql.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/heroku-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">HEROKU</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#heroku.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/bootstrap-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <!--FullStack Card-->
+                            <div class="timeline flip-face card-fullstack py-5">
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/html-5-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">HTML 5</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#html5.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/css-3-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">CSS 3</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#css3.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/react-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/git-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">GIT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#git.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/redux-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/bootstrap-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">BOOTSTRAP 5</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#bootstrap.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/tailwindcss-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">JAVASCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#javascript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card mb-5" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/react-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">REACT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#react.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/redux-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">REDUX</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#redux.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/tailwindcss-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">TAILWIND CSS</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#tailwind.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">TYPESCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#typescript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/python-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">PYTHON</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#python.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/django-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">DJANGO</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#django.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/dotnet-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">.NET</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#dotnet.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">JAVASCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#javascript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">TYPESCRIPT</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#typescript.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/sql-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">SQL</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#sql.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/postgresql-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">POSTGRESQL</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#postgresql.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-5">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 p-5">
+                                            <img src="assets/images/heroku-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">HEROKU</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                                <a href="#heroku.html" class="bttn bttn-primary my-5">View Details</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
