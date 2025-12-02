@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const fullstackCards = document.querySelector(".card-fullstack");
 
   let activeCard = frontendCards;
-  let isFlipping = false; // New translation operation is blocked during animation
+  let isFlipping = false; // Prevent new flip action during animation
   
   activeCard.classList.add("active");
 
   function flipTo(newCard, type) {
-    // Quit if same card pushed or flip continues
+    // Quit if same card pressed or flip continues
     if (activeCard === newCard || isFlipping) return;
 
     isFlipping = true;
@@ -24,18 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     activeCard.classList.remove("active");
 
-    // After animation completed
+    // After the animation is completed
     setTimeout(() => {
-      // Eski kartı temizle
+      // Remove old card
       activeCard.classList.remove("flip-horizontal-out", "flip-vertical-out");
       
-      // Animation to the new card
+      // Give new card login animation
       newCard.classList.add("active");
       newCard.classList.add(
         type === "horizontal" ? "flip-horizontal-in" : "flip-vertical-in"
       );
 
-      // Clear After Animation
+      // Clear after entrance animation completes
       setTimeout(() => {
         newCard.classList.remove("flip-horizontal-in", "flip-vertical-in");
         isFlipping = false;
