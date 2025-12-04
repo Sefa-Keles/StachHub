@@ -18,7 +18,7 @@ body {
     font-family: "Inter", sans-serif;
     background-color: var(--fs-gray-blue);
     color: var(--fs-gray);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.6;
 }
 
@@ -27,6 +27,10 @@ h1 {
     font-weight: 700;
     font-size: 5rem;
     line-height: 1.2;
+}
+
+h5 {
+    font-size: 1.8rem;
 }
 
 h2,h3 {
@@ -149,6 +153,10 @@ img {
     opacity: 0;
     pointer-events: none;
     transform: rotateY(90deg) rotateZ(0deg);
+}
+
+.flip-face .card-body {
+    padding: 4rem;
 }
 
 .flip-face .card {
@@ -551,3 +559,47 @@ img {
     padding: 2rem;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
+
+
+/* CONTACT */
+#contact-header {
+    margin-top: 9rem;
+}
+
+.contact-row h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact-column {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-entries {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.contact-entries form {
+    padding: 2rem;
+    width: 100%;
+}
+.contact-entries label {
+    padding: .5rem;
+}
+
+.contact-entries input, .contact-entries textarea {
+    display: block;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border: 1px solid var(--fs-white)
+}
+
+.contact-entries button {
+    width: 100%;
+}
+
+
