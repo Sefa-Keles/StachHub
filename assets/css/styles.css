@@ -574,9 +574,8 @@ img {
     margin-top: 9rem;
 }
 
-.section-row h2 {
-    text-align: center;
-    padding: 2rem 0;
+.contact-row{
+    padding: 5rem;
 }
 
 .contact-column {
@@ -695,4 +694,73 @@ img {
     .contact-entries form {
         max-width: 55rem;
     }
+}
+
+/* SIGN IN / REGISTER*/
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    justify-content: center;
+}
+
+.modal-body h2 {
+    padding: 2rem;
+}
+
+.modal-body a {
+    text-align: right;
+    padding: .5rem 0;
+    text-transform:none;
+    margin-bottom: 3rem;
+}
+
+.modal-body p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.modal-body h2 {
+    text-align: center;
+}
+
+.modal-body label {
+    padding-bottom: .5rem;
+}
+
+.modal-body input {
+    padding: .3rem 0;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--fs-soft-gray);
+}
+
+.modal-body button {
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.signin-socials {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.signin-socials i {
+    background-color: var(--fs-soft-blue);
+    color: var(--fs-white);
+    padding: .3rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+    transition: .2s;
+}
+
+.signup {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.signup a {
+    text-align: center;
+    display: inline-block;
 }
