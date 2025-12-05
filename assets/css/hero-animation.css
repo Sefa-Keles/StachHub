@@ -5,6 +5,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .banner .slider{
     position: absolute;
     width: 200px;
@@ -20,7 +21,8 @@
 @keyframes autoRun{
     from{
         transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-    }to{
+    }
+    to{
         transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
     }
 }
@@ -29,7 +31,7 @@
     position: absolute;
     inset: 0 0 0 0;
     transform: 
-        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(550px);
 }
 .banner .slider .item img{
@@ -38,108 +40,96 @@
     object-fit: cover;
 }
 
-.banner .header-content h1 {
+.banner .header-content {
     position: relative;
-    z-index: 2;
+    z-index: 3;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.banner .header-content h1 {
+    margin-bottom: 10px; 
+}
+
+.banner .header-content .typewrite {
+    margin-top: 0 !important; 
 }
 
 @media screen and (min-width: 1200px){
     .banner .slider{
-        width: 160px;
-        height: 200px;
-        left: calc(50% - 80px);
-        transform: perspective(1200px) ;
+        width: 150px;
+        height: 190px;
+        left: calc(50% - 75px);
+        transform: perspective(1200px);
+        top: 10%;
     }
     .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(450px);
-    }
-    .banner .header-content{
-        padding-top: 40%;
-    }
-
-    .banner .header-content .typewrite {
-        padding-top: 0;
+        translate: none;
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(420px);
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1119px){
+@media screen and (min-width: 992px) and (max-width: 1199px){
     .banner .slider{
-        width: 160px;
+        width: 150px;
         height: 200px;
-        left: calc(50% - 80px);
+        left: calc(50% - 75px);
+        top: 8%;
     }
     .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(300px);
-    }
-    .banner .header-content{
-        padding-top: 30%;
-    }
-
-    .banner .header-content .typewrite {
-        padding-top: 0;
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(340px);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .banner .slider{
-        width: 160px;
-        height: 200px;
-        left: calc(50% - 80px);
+        width: 140px;
+        height: 180px;
+        left: calc(50% - 70px);
+        top: 10%;
     }
     .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
             translateZ(300px);
-    }
-    .banner .header-content{
-        padding-top: 50%;
-    }
-
-    .banner .header-content .typewrite {
-        padding-top: 0;
     }
 }
 
 @media screen and (min-width: 567px) and (max-width: 767px) {
     .banner .slider{
         width: 100px;
-        height: 150px;
+        height: 140px;
         left: calc(50% - 50px);
+        top: 12%;
     }
     .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(240px);
-    }
-    .banner .header-content h1{
-        padding-top: 20%;
-    }
-
-    .banner .header-content .typewrite {
-        padding-top: 0;
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(220px);
     }
 }
 
 @media screen and (max-width: 575px) {
     .banner .slider{
-        width: 100px;
-        height: 150px;
-        left: calc(50% - 50px);
+        width: 90px;
+        height: 120px;
+        left: calc(50% - 45px);
+        top: 15%;
     }
     .banner .slider .item{
-        transform: 
-            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(220px);
-    }
-    .banner .header-content h1{
-        padding-top: 20%;
+        transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(200px);
     }
 
-    .banner .header-content .typewrite {
-        padding-top: 0;
+    /* Align content*/
+    .banner .header-content {
+        top: 58%;
+        transform: translateY(-50%);
     }
 }
