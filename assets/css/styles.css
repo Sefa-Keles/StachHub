@@ -591,8 +591,9 @@ img {
 
 .contact-map iframe {
     width: 100%;
-    height: 100%;
+    height: auto;
     min-height: 35rem;
+    display: block;
 }
 
 .contact-entries {
@@ -698,45 +699,45 @@ img {
 
 /* SIGN IN / REGISTER*/
 
-.modal-body {
+.form-content {
     display: flex;
     flex-direction: column;
     padding: 2rem 6rem;
     justify-content: center;
 }
 
-.modal-body h2 {
+.form-content h2 {
     padding: 2rem;
 }
 
-.modal-body a {
+.form-content a {
     text-align: right;
     padding: .5rem 0;
     text-transform:none;
     margin-bottom: 3rem;
 }
 
-.modal-body p {
+.form-content p {
     text-align: center;
     margin-top: 2rem;
 }
 
-.modal-body h2 {
+.form-content h2 {
     text-align: center;
 }
 
-.modal-body label {
+.form-content label {
     padding-bottom: .5rem;
 }
 
-.modal-body input {
-    padding: .3rem 0;
+.form-content input {
+    padding: .3rem .5rem;
     margin-bottom: 2rem;
     border: none;
     border-bottom: 1px solid var(--fs-soft-gray);
 }
 
-.modal-body button {
+.form-content button {
     border-radius: 2rem;
     padding: 1rem;
 }
@@ -753,6 +754,10 @@ img {
     border-radius: 50%;
     margin-right: .5rem;
     transition: .2s;
+}
+
+.signin-socials i:hover {
+    background-color: var(--fs-sky-blue);
 }
 
 .signup {
