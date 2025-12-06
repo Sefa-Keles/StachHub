@@ -133,6 +133,12 @@ img {
 .nav-direction-list {
     display: flex;
     justify-content: space-evenly;
+    padding-left: 0;
+}
+
+.flip-buttons {
+    padding: 3rem;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
 }
 
 /* 3D Flip Container */
@@ -165,10 +171,6 @@ img {
     transform: rotateY(90deg) rotateZ(0deg);
 }
 
-.flip-face .card-body {
-    padding: 4rem;
-}
-
 .flip-face .card {
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
 }
@@ -177,6 +179,10 @@ img {
     position: relative;
     top: -0.2rem;
     left: 0.2rem;
+}
+
+.flip-face .card-body {
+    padding: 4rem;
 }
 
 .flip-face.active {
