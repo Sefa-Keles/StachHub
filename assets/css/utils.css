@@ -2,29 +2,19 @@
 /* CSS Variables */
 
 :root {
-  /* base colors */
   --fs-white: #FFFFFF;
   --fs-gray-blue: #F6F9FC;
 
-  /* blues */
   --fs-soft-blue: #4F8BFF;
   --fs-sky-blue: #72A5FF;
 
-  /* grays */
   --fs-dark-gray-blue: #334155;
   --fs-soft-gray: #E5EAF1;
   --fs-gray: #475569;
 
-  /* black tones */
    --fs-black-blue: #0F172A;
 
-  /* shadows */
-  --fs-shadow-05: rgba(0,0,0,0.05);
-  --fs-shadow-08: rgba(0,0,0,0.08);
-
 }
-
-/* Buttons */
 
 .bttn{
     display: inline-block;

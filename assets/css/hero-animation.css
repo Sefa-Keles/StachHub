@@ -166,7 +166,6 @@
             translateZ(200px);
     }
 
-    /* Align content*/
     .banner .header-content {
         top: 45%;
         transform: translateY(-50%);
