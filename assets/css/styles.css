@@ -108,6 +108,13 @@ img {
     padding-top: 50%;
 }
 
+.header-content .typewrite {
+    color: var(--fs-black-blue);
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 1.2;
+}
+
 
 /* Navbar overlay */
 @media (max-width: 576px) {
