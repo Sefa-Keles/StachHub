@@ -86,11 +86,11 @@ img {
     width: auto;           
     padding: 0.5rem 1rem;  
     font-family: "Inter", sans-serif;
-    color: var(--fs-dark-gray-blue);
+    color: var(--fs-black-blue);
 }
 
 .navbar .nav-link:hover {
-    color: var(--fs-sky-blue);
+    color: var(--fs-soft-blue);
 }
 
 .navbar-scrolled {
