@@ -1,9 +1,5 @@
-/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* GENERAL STYLES*/
-
-/*Override General Settings*/
 * {
     padding: 0;
     margin: 0;
@@ -69,7 +65,6 @@ img {
     width: 100%;
 }
 
-/* HEADER */
 #header {
     background: url('../images/background.webp') no-repeat 40% center / cover;
     min-height: 70vh;
@@ -90,6 +85,12 @@ img {
 }
 
 .navbar .nav-link:hover {
+    color: var(--fs-sky-blue);
+    
+}
+
+.navbar .nav-link.active {
+    border-bottom: 2px solid var(--fs-soft-blue);
     color: var(--fs-soft-blue);
 }
 

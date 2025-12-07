@@ -1,19 +1,15 @@
-
-/* CSS Variables */
-
 :root {
-  --fs-white: #FFFFFF;
-  --fs-gray-blue: #F6F9FC;
+    --fs-white: #FFFFFF;
+    --fs-gray-blue: #F6F9FC;
 
-  --fs-soft-blue: #4F8BFF;
-  --fs-sky-blue: #72A5FF;
+    --fs-soft-blue: #4F8BFF;
+    --fs-sky-blue: #72A5FF;
 
-  --fs-dark-gray-blue: #334155;
-  --fs-soft-gray: #E5EAF1;
-  --fs-gray: #475569;
+    --fs-dark-gray-blue: #334155;
+    --fs-soft-gray: #E5EAF1;
+    --fs-gray: #475569;
 
-   --fs-black-blue: #0F172A;
-
+    --fs-black-blue: #0F172A;
 }
 
 .bttn{
