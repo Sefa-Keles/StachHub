@@ -85,7 +85,7 @@
         height: 190px;
         left: calc(50% - 75px);
         transform: perspective(1200px);
-        top: 10%;
+        top: 19%;
     }
 
     .banner .slider .item{
@@ -106,12 +106,12 @@
         width: 150px;
         height: 200px;
         left: calc(50% - 75px);
-        top: 8%;
+        top: 15%;
     }
     .banner .slider .item{
         transform:
             rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-            translateZ(340px);
+            translateZ(380px);
     }
 }
 
@@ -120,7 +120,7 @@
         width: 140px;
         height: 180px;
         left: calc(50% - 70px);
-        top: 10%;
+        top: 12%;
     }
     .banner .slider .item{
         transform:
