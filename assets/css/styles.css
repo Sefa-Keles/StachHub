@@ -86,7 +86,7 @@ img {
     width: auto;           
     padding: 0.5rem 1rem;  
     font-family: "Inter", sans-serif;
-    color: var(--fs-soft-blue);
+    color: var(--fs-dark-gray-blue);
 }
 
 .navbar .nav-link:hover {
@@ -171,18 +171,44 @@ img {
     transform: rotateY(90deg) rotateZ(0deg);
 }
 
-.flip-face .card {
+.timeline-content .card {
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
 }
 
-.flip-face .card:hover {
+.timeline-content .card:hover {
     position: relative;
     top: -0.2rem;
     left: 0.2rem;
 }
 
-.flip-face .card-body {
-    padding: 4rem;
+.timeline-content .card .row > [class*="col-"] {
+    display: block;
+    width: 100%;
+}
+
+.timeline-content .card .col-md-4 {
+    padding: 1.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.timeline-content .card .col-md-4 img {
+    width: 100%;
+    max-width: 16rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.timeline-content .card .col-md-8 .card-body {
+    padding: 1.5rem;
+}
+
+.timeline-content .card .card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
 }
 
 .flip-face.active {
@@ -254,6 +280,45 @@ img {
     }
 }
 
+/* CARD RESPONSIVE BREAKPOINTS */
+
+@media (min-width: 768px) {
+
+    .timeline-content .card .row > .col-md-4,
+    .timeline-content .card .row > .col-md-8 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timeline-content .card .col-md-4 {
+        padding: 2rem !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timeline-content .card .col-md-4 img {
+        max-width: 18rem;
+    }
+
+    .timeline-content .card .col-md-8 .card-body {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .timeline-content .card .col-md-4 {
+        padding: 2.5rem !important;
+    }
+
+    .timeline-content .card .col-md-4 img {
+        max-width: 20rem;
+    }
+
+    .timeline-content .card .col-md-8 .card-body {
+        padding: 2.5rem;
+    }
+}
 
 /* FOOTER */
 

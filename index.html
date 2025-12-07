@@ -22,10 +22,6 @@
     <link rel="stylesheet" href="assets/css/utils.css">
     <link rel="stylesheet" href="assets/css/hero-animation.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
-    <link rel="stylesheet" href="about.html">
-    <link rel="stylesheet" href="technologies.html">
-    <link rel="stylesheet" href="contact.html">
-    <link rel="stylesheet" href="register.html">
 </head>
 <body>
     <!-- HEADER -->
@@ -33,7 +29,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light"> 
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/stackhub-logo.png" class="logo" alt="StuckHub Logo">
+                    <img src="assets/images/stackhub-logo.webp" class="logo" alt="STACKHUB Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 w-100 d-flex flex-lg-row">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            <a class="nav-link" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="technologies.html">Technologies</a>
@@ -49,8 +45,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
-                        <li class="nav-item ms-auto">
-                            <a class="nav-link" href="register.html" data-bs-toggle="modal" data-bs-target="#registerModal">Sign In | Sign Up</a>
+                        <li class="nav-item ms-lg-auto">
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#registerModal">Sign In | Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -86,21 +82,41 @@
             <!--BANNER-->
             <div class="banner">
                 <div class="slider" style="--quantity: 10">
-                    <div class="item" style="--position: 1"><img src="assets/images/html-5-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 2"><img src="assets/images/css-3-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 4"><img src="assets/images/bootstrap-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 5"><img src="assets/images/javascript-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 6"><img src="assets/images/react-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 8"><img src="assets/images/typescript-logo-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 10"><img src="assets/images/python-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 9"><img src="assets/images/django-icon-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 7"><img src="assets/images/sql-svgrepo-com.svg" alt=""></div>
-                    <div class="item" style="--position: 3"><img src="assets/images/postgresql-logo-svgrepo-com.svg" alt=""></div>
+                    <div class="item" style="--position: 1">
+                        <img src="assets/images//html-5-svgrepo-com.webp" alt="HTML5 Logo">
+                    </div>
+                    <div class="item" style="--position: 2">
+                        <img src="assets/images/css-3-svgrepo-com.webp" alt="CSS3 Logo">
+                    </div>
+                    <div class="item" style="--position: 3">
+                        <img src="assets/images/bootstrap-svgrepo-com.webp" alt="BOOTSTRAP5 Logo">
+                    </div>
+                    <div class="item" style="--position: 4">
+                        <img src="assets/images/javascript-svgrepo-com.webp" alt="JAVASCRIPT Logo">
+                    </div>
+                    <div class="item" style="--position: 5">
+                        <img src="assets/images/react-svgrepo-com.webp" alt="REACT Logo">
+                    </div>
+                    <div class="item" style="--position: 6">
+                        <img src="assets/images/typescript-logo-svgrepo-com.webp" alt="TYPESCRIPT Logo">
+                    </div>
+                    <div class="item" style="--position: 7">
+                        <img src="assets/images/python-svgrepo-com.webp" alt="PYTHON Logo">
+                    </div>
+                    <div class="item" style="--position: 8">
+                        <img src="assets/images/django-icon-svgrepo-com.webp" alt="DJANGO Logo">
+                    </div>
+                    <div class="item" style="--position: 9">
+                        <img src="assets/images/sql-svgrepo-com.webp" alt="SQL Logo">
+                    </div>
+                    <div class="item" style="--position: 10">
+                        <img src="assets/images/postgresql-logo-svgrepo-com.webp" alt="POSTGRESQL Logo">
+                    </div>
                 </div>
                 <div class="header-content">
                     <h1 data-content = "Discover Your">Discover Your</h1>
                     <h1 class="typewrite" data-period="1000" data-type='["Tech Path", "Technologies"]'></h1>
-                    <a href="#" class="bttn bttn-outline animate__animated animate__headShake mt-5"><i class="fas fa-chevron-right"></i>Let's Dive</a>
+                    <a href="#" class="bttn bttn-outline animate__animated animate__headShake mt-5"><i class="fas fa-chevron-right" aria-hidden="true"></i>Let's Dive</a>
                 </div>
             </div>
         </div>
@@ -117,7 +133,7 @@
                             <ul class="nav-direction-list">
                                 <li class="nav-direction-item"><a href="#" id="bttn-frontend" class="bttn bttn-outline"><i class="fas fa-chevron-left"></i>FrontEnd</a></li>
                                 <li class="nav-direction-item px-3"><a href="#" id="bttn-backend" class="bttn bttn-outline"><i class="fas fa-chevron-right"></i>BackEnd</a></li>
-                                <li class="nav-direction-item"><a href="#" id="bttn-fullstack" class="bttn bttn-outline"><i class="fas fa-chevron-down"></i>FullStack</a></li>
+                                <li class="nav-direction-item"><a href="#" id="bttn-fullstack" class="bttn bttn-outline"><i class="fas fa-chevron-down" aria-hidden="true"></i>FullStack</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -134,7 +150,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/html-5-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/html-5-svgrepo-com.webp" class="img-fluid rounded-start" alt="HTML5 Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -155,7 +171,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/css-3-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/css-3-svgrepo-com.webp" class="img-fluid rounded-start" alt="CSS Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -176,7 +192,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/git-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/git-svgrepo-com.webp" class="img-fluid rounded-start" alt="GIT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -197,7 +213,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/bootstrap-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/bootstrap-svgrepo-com.webp" class="img-fluid rounded-start" alt="BOOTSTRAP5 Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -218,7 +234,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/javascript-svgrepo-com.webp" class="img-fluid rounded-start" alt="JAVASCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -239,7 +255,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/react-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/react-svgrepo-com.webp" class="img-fluid rounded-start" alt="REACT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -260,7 +276,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/redux-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/redux-svgrepo-com.webp" class="img-fluid rounded-start" alt="REDUX Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -281,7 +297,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/tailwindcss-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/tailwindcss-icon-svgrepo-com.webp" class="img-fluid rounded-start" alt="TAILWIND CSS Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -302,7 +318,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/typescript-logo-svgrepo-com.webp" class="img-fluid rounded-start" alt="TYPESCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -330,7 +346,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/python-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/python-svgrepo-com.webp" class="img-fluid rounded-start" alt="PYTHON Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -351,7 +367,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/django-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/django-icon-svgrepo-com.webp" class="img-fluid rounded-start" alt="DJANGO Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -372,7 +388,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/dotnet-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/dotnet-svgrepo-com.webp" class="img-fluid rounded-start" alt="DOTNET Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -393,7 +409,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/javascript-svgrepo-com.webp" class="img-fluid rounded-start" alt="JAVASCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -414,7 +430,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/typescript-logo-svgrepo-com.webp" class="img-fluid rounded-start" alt="TYPESCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -435,7 +451,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/sql-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/sql-svgrepo-com.webp" class="img-fluid rounded-start" alt="SQL Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -456,7 +472,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/postgresql-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/postgresql-logo-svgrepo-com.webp" class="img-fluid rounded-start" alt="POSTGRESQL Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -477,7 +493,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/heroku-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/heroku-icon-svgrepo-com.webp" class="img-fluid rounded-start" alt="HEROKU Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -505,7 +521,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/html-5-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/html-5-svgrepo-com.webp" class="img-fluid rounded-start" alt="HTML5 Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -526,7 +542,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/css-3-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/css-3-svgrepo-com.webp" class="img-fluid rounded-start" alt="CSS3 Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -547,7 +563,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/git-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/git-svgrepo-com.webp" class="img-fluid rounded-start" alt="GIT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -568,7 +584,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/bootstrap-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/bootstrap-svgrepo-com.webp" class="img-fluid rounded-start" alt="BOOTSTRAP5 Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -589,7 +605,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/javascript-svgrepo-com.webp" class="img-fluid rounded-start" alt="JAVASCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -610,7 +626,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/react-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/react-svgrepo-com.webp" class="img-fluid rounded-start" alt="REACT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -631,7 +647,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/redux-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/redux-svgrepo-com.webp" class="img-fluid rounded-start" alt="REDUX Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -652,7 +668,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/tailwindcss-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/tailwindcss-icon-svgrepo-com.webp" class="img-fluid rounded-start" alt="TAILWIND CSS Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -673,7 +689,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/typescript-logo-svgrepo-com.webp" class="img-fluid rounded-start" alt="TYPESCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -694,7 +710,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/python-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/python-svgrepo-com.webp" class="img-fluid rounded-start" alt="PYTHON Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -715,7 +731,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/django-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/django-icon-svgrepo-com.webp" class="img-fluid rounded-start" alt="DJANGO Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -736,7 +752,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/dotnet-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/dotnet-svgrepo-com.webp" class="img-fluid rounded-start" alt="DOTNET Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -757,7 +773,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/javascript-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/javascript-svgrepo-com.webp" class="img-fluid rounded-start" alt="JAVASCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -778,7 +794,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/typescript-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/typescript-logo-svgrepo-com.webp" class="img-fluid rounded-start" alt="TYPESCRIPT Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -799,7 +815,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/sql-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/sql-svgrepo-com.webp" class="img-fluid rounded-start" alt="SQL Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -820,7 +836,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/postgresql-logo-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/postgresql-logo-svgrepo-com.webp" class="img-fluid rounded-start" alt="POSTGRESQL Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -841,7 +857,7 @@
                                                 <div class="card mb-5">
                                                     <div class="row g-0">
                                                         <div class="col-md-4 p-5">
-                                                            <img src="assets/images/heroku-icon-svgrepo-com.svg" class="img-fluid rounded-start" alt="...">
+                                                            <img src="assets/images/heroku-icon-svgrepo-com.webp" class="img-fluid rounded-start" alt="HEROKU Card Logo" loading="lazy">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
@@ -912,6 +928,5 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/type-writer.js"></script>
     <script src="assets/js/flip.js"></script>
-    <script src="assets/js/navbar-scroll.js"></script>
 </body>
 </html>
