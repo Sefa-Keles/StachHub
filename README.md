@@ -761,3 +761,174 @@ Lighthouse SEO audit showing search engine optimization performance.
 ### Overall Performance Score
 ![Overall Performance](assets/images/overall-performance.png)
 Aggregated Lighthouse performance metrics for desktop and mobile.
+
+## Sources
+
+This section lists the sources, tools, and references used throughout the **StackHub** project.
+
+### Icons & Fonts
+- Icons: [FontAwesome](https://fontawesome.com/)
+- Fonts: [Google Fonts](https://fonts.google.com/)
+
+### Design & Animations
+- Logo design assisted by ChatGPT
+- Animations: [Animate.css](https://animate.style/)
+- Bootstrap framework for layout and responsive design
+
+### Tutorials & Learning References
+- [The WebShala](https://thewebshala.com/)
+- [Lun Dev](https://www.lundev.com/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [Code Institute](https://codeinstitute.net/)
+
+### Maps & Location
+- Google Maps integration for Contact page
+
+### SVGs & Images
+- [SVGRepo](https://www.svgrepo.com/)
+- [Stockcake](https://stockcake.com/)
+
+### Social Media & Integration
+- Twitter/X
+- LinkedIn
+- GitHub
+
+> **Note:** All AI-generated assets, images, and icons have been used respecting copyright and proper attribution where applicable.
+
+## Timeline / Special Features
+
+The **StackHub** project features an interactive technology timeline to guide learners through Frontend, Backend, and Fullstack technologies in a structured learning path.
+
+### Technology Timeline Card
+- **Interactive flip card** that rotates horizontally or vertically depending on the selected stack.
+- **Frontend Timeline:** Displays monthly progression of frontend technologies with:
+  - Month indicator (e.g., Month - 1)
+  - Technology logo
+  - Short description
+  - Duration to learn
+- **Backend Timeline:** Revealed with a 180° horizontal flip, showing backend technology progression.
+- **Fullstack Timeline:** Revealed with a top-to-bottom vertical flip, showing fullstack progression.
+- **Navigation Buttons:** Three buttons at the top of the card for switching between Frontend, Backend, and Fullstack views.
+- **Responsive Design:** Fully adaptable across devices using Bootstrap and CSS media queries.
+- **Animations:** Smooth flip transitions, hover effects, and typewriter effect on hero button using JavaScript.
+
+### Hero Section Features
+- **3D rotating technology cards:** Animated in a circular perspective showcasing the main learning technologies.
+- **Typewriter effect button:** JavaScript-powered animated button to encourage user interaction.
+- **Call-to-action:** Guides users to explore technology timelines.
+
+> **Note:** The timeline and hero animations are designed to emphasize user engagement, learning progression, and visual appeal, making it easier for learners to navigate through technologies.
+
+## Limitations & Lessons Learned
+
+During the development of **StackHub**, several limitations and key lessons were identified, helping improve both the project and future development practices.
+
+### Limitations
+- **Animation Performance:** Some 3D flip animations and hero section rotations may slightly lag on low-end devices.
+- **Timeline Scroll UX:** Long timelines can require extra scrolling; mobile users might experience small usability challenges.
+- **Responsive Flip Fallback:** On very small screens, the flip card animation had to be simplified for smoother performance.
+- **Image Sizing & Optimization:** Ensuring all technology logos and hero images are WebP optimized while maintaining visual quality.
+- **Logo Placement:** Adapting logo size and position for different screen sizes was challenging for consistent design.
+- **Modal Responsiveness:** Sign In / Sign Up modals required fine-tuning to fit smaller devices without overflowing content.
+
+### Lessons Learned
+- **Responsive Design is Key:** Bootstrap grid, custom media queries, and flexible images ensured a smooth experience across devices.
+- **Interactive Elements Enhance UX:** Flip cards, typewriter buttons, and animated technology cards significantly improved user engagement.
+- **Performance Optimization Matters:** Converting images to WebP, lazy-loading techniques, and minimal JavaScript reduced page load times.
+- **Semantic HTML & Maintainable CSS:** Organized and semantic code improves maintainability and readability for team collaboration.
+- **AI Tools and Resources:** ChatGPT and online libraries (FontAwesome, Google Fonts, Animate.css) accelerated content creation and design iteration.
+
+> **Conclusion:**  
+By acknowledging these limitations and applying the lessons learned, **StackHub** delivers an engaging, interactive, and educational platform while laying a strong foundation for future enhancements.
+
+## Validations & Performance Tests
+
+To ensure high-quality code and performance standards, **StackHub** underwent multiple validation and testing procedures.
+
+### HTML & CSS Validation
+- **W3C HTML Validation:** All HTML pages (Index.html, About.html, Technologies.html, Contact.html) were validated using [W3C Markup Validation](https://validator.w3.org/).
+- **W3C CSS Validation:** CSS stylesheets were validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+- **Notes:** Minor warnings were addressed to ensure semantic and maintainable code.
+
+**Screenshots / Links:**  
+- HTML Validation: `![HTML Validation Screenshot](link-to-your-image)`  
+- CSS Validation: `![CSS Validation Screenshot](link-to-your-image)`
+
+---
+
+### Performance & Accessibility Testing
+- **Lighthouse Performance Test:** Evaluated website performance, accessibility, SEO, and best practices.
+- **Key Metrics:**
+  - **Performance Score:** `XX/100`  
+  - **Accessibility Score:** `XX/100`  
+  - **Best Practices Score:** `XX/100`  
+  - **SEO Score:** `XX/100`
+
+**Screenshots / Links:**  
+- Lighthouse Report: `![Lighthouse Performance Screenshot](link-to-your-image)`
+
+---
+
+### Additional Tests
+- **Responsive Design Checks:** Ensured compatibility across multiple devices and screen sizes (mobile, tablet, desktop).
+- **Cross-Browser Testing:** Tested on Chrome, Firefox, Edge, and Safari for consistent behavior.
+- **Accessibility Considerations:** Color contrast, semantic tags, and keyboard navigation checked for usability.
+
+**Screenshots / Links:**  
+- Responsive Checks: `![Responsive Screenshot](link-to-your-image)`  
+- Accessibility & Best Practices: `![Accessibility Screenshot](link-to-your-image)`
+
+---
+
+> **Conclusion:**  
+All pages of **StackHub** passed validation and performance tests with minor optimizations. This ensures a reliable, fast, and accessible experience for users across devices and browsers.
+
+## Screenshots
+
+Below are the screenshots of **StackHub** in various sections and device views. Replace the placeholder links with your own image URLs.
+
+### Homepage
+- **Hero Section with 3D Animated Technology Cards:**  
+  `![Hero Section](link-to-your-image)`
+
+- **Technology Timeline Card (Frontend View):**  
+  `![Frontend Timeline](link-to-your-image)`
+
+- **Technology Timeline Card (Backend View):**  
+  `![Backend Timeline](link-to-your-image)`
+
+- **Technology Timeline Card (Fullstack View):**  
+  `![Fullstack Timeline](link-to-your-image)`
+
+### About Page
+- **About Us Section:**  
+  `![About Us Section](link-to-your-image)`
+
+- **Mission & Gallery Section:**  
+  `![Mission and Gallery](link-to-your-image)`
+
+- **Teams Section:**  
+  `![Teams Section](link-to-your-image)`
+
+### Technologies Page
+- **Tech Wrapper & Tech Detail Layout (Desktop View):**  
+  `![Tech Page Desktop](link-to-your-image)`
+
+- **Tech Wrapper & Tech Detail Layout (Mobile View):**  
+  `![Tech Page Mobile](link-to-your-image)`
+
+### Contact Page
+- **Contact Form & Google Maps Layout:**  
+  `![Contact Page](link-to-your-image)`
+
+### Sign In / Sign Up Modal
+- **Modal Layout with Social Media Login Options:**  
+  `![Sign In / Sign Up Modal](link-to-your-image)`
+
+### Footer
+- **Footer Section Layout:**  
+  `![Footer Section](link-to-your-image)`
+
+---
+
+> **Tip:** Ensure all images are optimized for web (e.g., WebP format) to improve load time and performance.
