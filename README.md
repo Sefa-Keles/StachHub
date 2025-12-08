@@ -705,62 +705,46 @@ The **Footer** appears consistently at the bottom of all pages, providing naviga
 ## Screenshots / Visuals
 
 ### Hero Section
-![Hero Section](assets/images/hero-section.png)
+![Hero Section](assets/images/hero-section.webp)
 Hero section displays 3D animated technology cards with typewriter effect and a call-to-action button.
 
 ### Technology Timeline Card
-![Technology Timeline Card](assets/images/timeline-card.png)
+![Technology Timeline Card](assets/images/timeline-card.webp)
 Interactive card showing Frontend, Backend, and Fullstack timelines with flip animations. Users can navigate between the timelines using the top buttons.
 
 ### About Us Page
-![About Us Page](assets/images/about-page.png)
+![About Us Page](assets/images/about-page.webp)
 About Us section introduces the company with a short description, mission statement, image gallery, and team profiles.
 
 ### Technologies Page
-![Technologies Page](assets/images/technologies-page.png)
+![Technologies Page](assets/images/technologies-page.webp)
 Technologies page shows tech cards in a grid layout. Clicking a card displays detailed information, curriculum, and lesson videos in the Tech Detail section.
 
 ### Contact Page
-![Contact Page](assets/images/contact-page.png)
+![Contact Page](assets/images/contact-page.webp)
 Contact page split into two sections: company location (Google Maps) on the left and a contact form on the right. Form fields are mandatory.
 
 ### Sign In / Sign Up Modal
-![Sign In/Sign Up Modal](assets/images/signin-signup-modal.png)
+![Sign In/Sign Up Modal](assets/images/signin-signup-modal.webp)
 Modal allows users to sign in or sign up, with social media login buttons and a SIGN UP button for new users.
 
 ### Footer
-![Footer](assets/images/footer.png)
+![Footer](assets/images/footer.webp)
 Footer displayed on all pages with company info, menu links, and social media buttons.
 
 ## Performance & Validation Screenshots
 
 ### W3C HTML Validation
-![W3C HTML Validation](assets/images/w3c-html-validation.png)
+![W3C HTML Validation](assets/images/w3c-html-validation.webp)
 Ensures semantic and valid HTML markup.
 
 ### W3C CSS Validation
-![W3C CSS Validation](assets/images/w3c-css-validation.png)
+![W3C CSS Validation](assets/images/w3c-css-validation.webp)
 Checks the CSS files for standard compliance and errors.
 
 ### Lighthouse Performance Test
-![Lighthouse Performance](assets/images/lighthouse-performance.png)
+![Lighthouse Performance](assets/images/lighthouse-performance.webp)
 Displays website performance score, including metrics like load time, interactivity, and visual stability.
-
-### Accessibility Score
-![Accessibility Score](assets/images/accessibility-score.png)
-Lighthouse accessibility audit ensuring site is usable by all users.
-
-### Best Practices Score
-![Best Practices Score](assets/images/best-practices-score.png)
-Lighthouse audit for web best practices including security and UX recommendations.
-
-### SEO Score
-![SEO Score](assets/images/seo-score.png)
-Lighthouse SEO audit showing search engine optimization performance.
-
-### Overall Performance Score
-![Overall Performance](assets/images/overall-performance.png)
-Aggregated Lighthouse performance metrics for desktop and mobile.
 
 ## Sources
 
