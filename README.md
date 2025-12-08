@@ -25,8 +25,6 @@ StackHub is an interactive, responsive web project built with HTML, CSS, Bootstr
 - [Timeline seasons](#timeline-seasons)
 - [Limitations](#limitations)
 - [Content](#content)
-- [Validations](#validations)
-- [Screenshots](#screenshots)
 
 ## Updates
 
@@ -475,6 +473,7 @@ The **StackHub** project is designed with a modern, technological, and education
 
 ### Color Palette
 The website uses a clean, professional color palette that emphasizes readability and modern aesthetics:
+(assets/images/color-palette.webp)
 
 ```css
 :root {
@@ -824,95 +823,3 @@ During the development of **StackHub**, several limitations and key lessons were
 
 > **Conclusion:**  
 By acknowledging these limitations and applying the lessons learned, **StackHub** delivers an engaging, interactive, and educational platform while laying a strong foundation for future enhancements.
-
-## Validations & Performance Tests
-
-To ensure high-quality code and performance standards, **StackHub** underwent multiple validation and testing procedures.
-
-### HTML & CSS Validation
-- **W3C HTML Validation:** All HTML pages (Index.html, About.html, Technologies.html, Contact.html) were validated using [W3C Markup Validation](https://validator.w3.org/).
-- **W3C CSS Validation:** CSS stylesheets were validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
-- **Notes:** Minor warnings were addressed to ensure semantic and maintainable code.
-
-**Screenshots / Links:**  
-- HTML Validation: `![HTML Validation Screenshot](link-to-your-image)`  
-- CSS Validation: `![CSS Validation Screenshot](link-to-your-image)`
-
----
-
-### Performance & Accessibility Testing
-- **Lighthouse Performance Test:** Evaluated website performance, accessibility, SEO, and best practices.
-- **Key Metrics:**
-  - **Performance Score:** `XX/100`  
-  - **Accessibility Score:** `XX/100`  
-  - **Best Practices Score:** `XX/100`  
-  - **SEO Score:** `XX/100`
-
-**Screenshots / Links:**  
-- Lighthouse Report: `![Lighthouse Performance Screenshot](link-to-your-image)`
-
----
-
-### Additional Tests
-- **Responsive Design Checks:** Ensured compatibility across multiple devices and screen sizes (mobile, tablet, desktop).
-- **Cross-Browser Testing:** Tested on Chrome, Firefox, Edge, and Safari for consistent behavior.
-- **Accessibility Considerations:** Color contrast, semantic tags, and keyboard navigation checked for usability.
-
-**Screenshots / Links:**  
-- Responsive Checks: `![Responsive Screenshot](link-to-your-image)`  
-- Accessibility & Best Practices: `![Accessibility Screenshot](link-to-your-image)`
-
----
-
-> **Conclusion:**  
-All pages of **StackHub** passed validation and performance tests with minor optimizations. This ensures a reliable, fast, and accessible experience for users across devices and browsers.
-
-## Screenshots
-
-Below are the screenshots of **StackHub** in various sections and device views. Replace the placeholder links with your own image URLs.
-
-### Homepage
-- **Hero Section with 3D Animated Technology Cards:**  
-  `![Hero Section](link-to-your-image)`
-
-- **Technology Timeline Card (Frontend View):**  
-  `![Frontend Timeline](link-to-your-image)`
-
-- **Technology Timeline Card (Backend View):**  
-  `![Backend Timeline](link-to-your-image)`
-
-- **Technology Timeline Card (Fullstack View):**  
-  `![Fullstack Timeline](link-to-your-image)`
-
-### About Page
-- **About Us Section:**  
-  `![About Us Section](link-to-your-image)`
-
-- **Mission & Gallery Section:**  
-  `![Mission and Gallery](link-to-your-image)`
-
-- **Teams Section:**  
-  `![Teams Section](link-to-your-image)`
-
-### Technologies Page
-- **Tech Wrapper & Tech Detail Layout (Desktop View):**  
-  `![Tech Page Desktop](link-to-your-image)`
-
-- **Tech Wrapper & Tech Detail Layout (Mobile View):**  
-  `![Tech Page Mobile](link-to-your-image)`
-
-### Contact Page
-- **Contact Form & Google Maps Layout:**  
-  `![Contact Page](link-to-your-image)`
-
-### Sign In / Sign Up Modal
-- **Modal Layout with Social Media Login Options:**  
-  `![Sign In / Sign Up Modal](link-to-your-image)`
-
-### Footer
-- **Footer Section Layout:**  
-  `![Footer Section](link-to-your-image)`
-
----
-
-> **Tip:** Ensure all images are optimized for web (e.g., WebP format) to improve load time and performance.
