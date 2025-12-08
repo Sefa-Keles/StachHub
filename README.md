@@ -473,8 +473,7 @@ The **StackHub** project is designed with a modern, technological, and education
 
 ### Color Palette
 The website uses a clean, professional color palette that emphasizes readability and modern aesthetics:
-(assets/images/color-palette.webp)
-
+![Color Palette](assets/images/hero-section.webp)
 ```css
 :root {
     --fs-white: #FFFFFF;
