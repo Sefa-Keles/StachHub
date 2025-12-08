@@ -271,7 +271,10 @@ const techDetails = {
 
             detailBox.innerHTML = `
                 <div class="detail-card">
-                    ${techDetails[tech]}
+                    ${techDetails[tech].replace(
+                        /<iframe([^>]*)>(.*?)<\/iframe>/g,
+                        '<div class="iframe-container"><iframe$1></iframe></div>'
+                    )}
                 </div>
             `;
         });
