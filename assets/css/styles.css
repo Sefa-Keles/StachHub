@@ -585,6 +585,7 @@ img {
     padding: 1rem;
     width: 100%;
     min-width: 0;
+    overflow: visible !important;
 }
 
 .tech-detail {
@@ -593,6 +594,7 @@ img {
     padding: 1rem;
     min-width: 0;
     order: 1;
+    align-self: start !important;
 }
 
 .detail-card {
@@ -652,7 +654,7 @@ img {
     border: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .techs-container {
         grid-template-columns: 1fr 1fr;
         align-items: start;
@@ -666,7 +668,7 @@ img {
     }
 
     .tech-detail {
-        position: sticky;
+        position: sticky !important;
         top: 9.5rem;
         max-width: 100%;
         min-width: 0;
@@ -689,8 +691,8 @@ img {
 
     .tech-detail {
         position: sticky;
-        top: 6rem;
-        max-width: 450px;
+        top: 9.5rem;
+        max-width: 100%;
         min-width: 0;
         order: 2;
     }
